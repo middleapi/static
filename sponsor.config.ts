@@ -10,28 +10,11 @@ interface JSONSponsor {
   amount: number;
   link: string;
   org: boolean;
-  /**
-   * The ISO string representing when the sponsorship was created. This can be used to determine how long someone has been sponsoring.
-   */
   createdAt?: string;
 
   tierTitle: string;
-  /**
-   * The tier level of the sponsor, where 0 is the lowest tier (e.g. Past Sponsors) and higher numbers indicate higher tiers.
-   */
   tierLevel: number;
-
-  /**
-   * Determines how the sponsor should be displayed in the website sidebar.
-   * This is only used for sponsors that define a custom `sidebarLogo` in
-   * `SPONSOR_CUSTOMIZATIONS` and meet the amount requirements.
-   */
   sidebarSize: SidebarPlacementSize;
-  /**
-   * The URL of the logo to use for the sponsor's sidebar placement.
-   *
-   * @default The sponsor's avatar URL from GitHub Sponsors.
-   */
   sidebarLogo: string;
 }
 
@@ -205,7 +188,16 @@ export default defineConfig({
             customization?.sidebarLogo || sponsorEntry.sponsor.avatarUrl,
         } satisfies JSONSponsor;
       })
-      .sort((a, b) => b.amount - a.amount);
+      .sort((a, b) => {
+        const amountDiff = b.amount - a.amount;
+        if (amountDiff !== 0) {
+          return amountDiff;
+        }
+
+        const createdAtA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+        const createdAtB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+        return createdAtA - createdAtB;
+      });
 
     await fs.writeFile('sponsors.json', `${JSON.stringify(json, null, 2)}\n`);
   },
