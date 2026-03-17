@@ -46,6 +46,9 @@ const SPONSOR_CUSTOMIZATIONS: Record<string, Partial<JSONSponsor>> = {
     sidebarLogo:
       'https://cdn.jsdelivr.net/gh/middleapi/static/assets/MisskeyHQ_TextLogo.png',
   },
+  zuplo: {
+    link: 'https://zuplo.link/orpc',
+  },
 };
 
 const BRONZE_TIER_THRESHOLD = 100;
