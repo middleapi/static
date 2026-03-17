@@ -4,7 +4,7 @@ import { defineConfig, tierPresets } from 'sponsorkit';
 type SidebarPlacementSize = 'normal' | 'small' | 'none';
 
 interface JSONSponsor {
-  name: string;
+  name: string | null;
   login: string;
   avatar: string;
   amount: number;
