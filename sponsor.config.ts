@@ -163,7 +163,15 @@ export default defineConfig({
                 ? 'small'
                 : 'none';
 
-        const profileUrl = `https://github.com/${sponsorEntry.sponsor.login}`;
+        const profileUrl = `https://github.com/${encodeURIComponent(sponsorEntry.sponsor.login)}`;
+        const canUseCustomOrWebsiteLink =
+          sponsorEntry.monthlyDollars >= BRONZE_TIER_THRESHOLD;
+        const link = canUseCustomOrWebsiteLink
+          ? customization?.link ||
+            sponsorEntry.sponsor.websiteUrl ||
+            sponsorEntry.sponsor.linkUrl ||
+            profileUrl
+          : profileUrl;
 
         const tierLevel =
           TIERS.length -
@@ -190,11 +198,7 @@ export default defineConfig({
           createdAt: sponsorEntry.createdAt,
           tierTitle: tier.title,
           tierLevel: tierLevel,
-          link:
-            customization?.link ||
-            sponsorEntry.sponsor.websiteUrl ||
-            sponsorEntry.sponsor.linkUrl ||
-            profileUrl,
+          link: link,
           org: sponsorEntry.sponsor.type === 'Organization',
           sidebarSize: sidebarSize,
           sidebarLogo:
