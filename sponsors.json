@@ -39,19 +39,6 @@
     "sidebarLogo": "https://cdn.jsdelivr.net/gh/middleapi/static/assets/MisskeyHQ_TextLogo.png"
   },
   {
-    "name": "Valerii Petryniak",
-    "login": "valerii15298",
-    "avatar": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4",
-    "amount": 200,
-    "createdAt": "2025-05-22T21:44:12Z",
-    "tierTitle": "🥈 Silver Sponsor",
-    "tierLevel": 5,
-    "link": "https://valerii15298.github.io",
-    "org": false,
-    "sidebarSize": "none",
-    "sidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
-  },
-  {
     "name": null,
     "login": "christ12938",
     "avatar": "https://avatars.githubusercontent.com/u/25758598?v=4",
@@ -193,6 +180,19 @@
     "org": false,
     "sidebarSize": "none",
     "sidebarLogo": "https://avatars.githubusercontent.com/u/23610?v=4"
+  },
+  {
+    "name": "Valerii Petryniak",
+    "login": "valerii15298",
+    "avatar": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4",
+    "amount": 10,
+    "createdAt": "2025-05-22T21:44:12Z",
+    "tierTitle": "Sponsors",
+    "tierLevel": 2,
+    "link": "https://github.com/valerii15298",
+    "org": false,
+    "sidebarSize": "none",
+    "sidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
   },
   {
     "name": "happyboy",
