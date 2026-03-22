@@ -78,19 +78,6 @@
     "sidebarLogo": "https://avatars.githubusercontent.com/u/39349270?v=4"
   },
   {
-    "name": "Sefa Eyeoglu",
-    "login": "Scrumplex",
-    "avatar": "https://avatars.githubusercontent.com/u/11587657?u=ab503582165c0bbff0cca47ce31c9450bb1553c9&v=4",
-    "amount": 20,
-    "createdAt": "2026-02-19T13:13:45Z",
-    "tierTitle": "Sponsors",
-    "tierLevel": 2,
-    "link": "https://github.com/Scrumplex",
-    "org": false,
-    "sidebarSize": "none",
-    "sidebarLogo": "https://avatars.githubusercontent.com/u/11587657?u=ab503582165c0bbff0cca47ce31c9450bb1553c9&v=4"
-  },
-  {
     "name": "あわわわとーにゅ",
     "login": "u1-liquid",
     "avatar": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4",
@@ -791,5 +778,18 @@
     "org": false,
     "sidebarSize": "none",
     "sidebarLogo": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4"
+  },
+  {
+    "name": "Sefa Eyeoglu",
+    "login": "Scrumplex",
+    "avatar": "https://avatars.githubusercontent.com/u/11587657?u=ab503582165c0bbff0cca47ce31c9450bb1553c9&v=4",
+    "amount": -1,
+    "createdAt": "2026-02-19T13:13:45Z",
+    "tierTitle": "Past Sponsors",
+    "tierLevel": 0,
+    "link": "https://github.com/Scrumplex",
+    "org": false,
+    "sidebarSize": "none",
+    "sidebarLogo": "https://avatars.githubusercontent.com/u/11587657?u=ab503582165c0bbff0cca47ce31c9450bb1553c9&v=4"
   }
 ]
