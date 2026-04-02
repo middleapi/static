@@ -13,19 +13,6 @@
     "sidebarLogo": "https://cdn.jsdelivr.net/gh/middleapi/static/assets/ScreenshotOne_TextLogo.svg"
   },
   {
-    "name": "Zuplo",
-    "login": "zuplo",
-    "avatar": "https://avatars.githubusercontent.com/u/85497839?v=4",
-    "amount": 500,
-    "createdAt": "2025-04-02T05:15:32Z",
-    "tierTitle": "🥇 Gold Sponsor",
-    "tierLevel": 6,
-    "link": "https://zuplo.link/orpc",
-    "org": true,
-    "sidebarSize": "none",
-    "sidebarLogo": "https://avatars.githubusercontent.com/u/85497839?v=4"
-  },
-  {
     "name": "村上さん",
     "login": "SanMurakami",
     "avatar": "https://avatars.githubusercontent.com/u/37681609?u=0dd4c7e4ba937cbb52b068c55914b1d8164dc0c7&v=4",
@@ -366,7 +353,7 @@
   {
     "name": "Christopher Kapic",
     "login": "christopher-kapic",
-    "avatar": "https://avatars.githubusercontent.com/u/59740769?u=9c0fc693c24e088e75a4b05803fa499b865e7f38&v=4",
+    "avatar": "https://avatars.githubusercontent.com/u/59740769?u=e7ad4b72b5bf6c9eb1644c26dbf3332a8f987377&v=4",
     "amount": 5,
     "createdAt": "2025-10-24T04:00:19Z",
     "tierTitle": "Backers",
@@ -374,7 +361,7 @@
     "link": "https://github.com/christopher-kapic",
     "org": false,
     "sidebarSize": "none",
-    "sidebarLogo": "https://avatars.githubusercontent.com/u/59740769?u=9c0fc693c24e088e75a4b05803fa499b865e7f38&v=4"
+    "sidebarLogo": "https://avatars.githubusercontent.com/u/59740769?u=e7ad4b72b5bf6c9eb1644c26dbf3332a8f987377&v=4"
   },
   {
     "name": "Tom Ballinger",
@@ -479,6 +466,19 @@
     "org": false,
     "sidebarSize": "none",
     "sidebarLogo": "https://avatars.githubusercontent.com/u/100147665?u=106b2c18e9c98a61861b4ee7fc100f5b9906a6c9&v=4"
+  },
+  {
+    "name": "Zuplo",
+    "login": "zuplo",
+    "avatar": "https://avatars.githubusercontent.com/u/85497839?v=4",
+    "amount": -1,
+    "createdAt": "2025-04-02T05:15:32Z",
+    "tierTitle": "Past Sponsors",
+    "tierLevel": 0,
+    "link": "https://github.com/zuplo",
+    "org": true,
+    "sidebarSize": "none",
+    "sidebarLogo": "https://avatars.githubusercontent.com/u/85497839?v=4"
   },
   {
     "name": "motopods",
