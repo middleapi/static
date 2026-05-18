@@ -49,6 +49,10 @@ const SPONSOR_CUSTOMIZATIONS: Record<string, Partial<JSONSponsor>> = {
   zuplo: {
     link: 'https://zuplo.link/orpc',
   },
+  plancraft: {
+    sidebarLogo:
+      'https://cdn.jsdelivr.net/gh/middleapi/static/assets/plancraft.svg',
+  },
 };
 
 const BRONZE_TIER_THRESHOLD = 100;
