@@ -26,6 +26,19 @@
     "sidebarLogo": "https://cdn.jsdelivr.net/gh/middleapi/static/assets/MisskeyHQ_TextLogo.png"
   },
   {
+    "name": "plancraft",
+    "login": "plancraft",
+    "avatar": "https://avatars.githubusercontent.com/u/46482287?v=4",
+    "amount": 100,
+    "createdAt": "2026-05-18T11:16:16Z",
+    "tierTitle": "🥉 Bronze Sponsor",
+    "tierLevel": 4,
+    "link": "https://plancraft.com",
+    "org": true,
+    "sidebarSize": "small",
+    "sidebarLogo": "https://cdn.jsdelivr.net/gh/middleapi/static/assets/plancraft.svg"
+  },
+  {
     "name": "LN Markets",
     "login": "ln-markets",
     "avatar": "https://avatars.githubusercontent.com/u/70597625?v=4",
