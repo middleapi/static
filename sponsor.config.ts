@@ -60,21 +60,21 @@ const TIERS = [
       container: { sidePadding: 35 },
     },
   },
-  { title: "☕ Backers", preset: tierPresets.small },
-  { title: "💛 Sponsors", monthlyDollars: 10, preset: tierPresets.base },
+  { title: "Backers", preset: tierPresets.small },
+  { title: "Sponsors", monthlyDollars: 10, preset: tierPresets.base },
   {
-    title: "🏢 Company Sponsors",
+    title: "Company Sponsors",
     monthlyDollars: 50,
     preset: tierPresets.medium,
   },
   {
-    title: "🚀 Premium Sponsors",
+    title: "Premium Sponsors",
     monthlyDollars: 200,
     preset: tierPresets.large,
   },
   {
-    title: "🌟 Special Sponsors",
-    monthlyDollars: 1000,
+    title: "Special Sponsors",
+    monthlyDollars: 750,
     preset: tierPresets.xl,
   },
 ];
