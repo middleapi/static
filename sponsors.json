@@ -51,8 +51,8 @@
     "amount": 50,
     "type": "Organization",
     "createdAt": "2025-10-24T13:08:54Z",
-    "tierTitle": "Company Sponsor",
-    "tierTitlePlural": "Company Sponsors",
+    "tierTitle": "Organization Sponsor",
+    "tierTitlePlural": "Organization Sponsors",
     "tierLevel": 3,
     "link": "https://lnmarkets.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
