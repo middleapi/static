@@ -21,7 +21,8 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
     description: "The screenshot API for developers",
     link: "https://screenshotone.com",
     background: { light: "#f7f5ff", dark: "#303147" },
-    orpc: { slot: 1, rel: "" },
+    slot: 1,
+    rel: "",
   },
   "github:sanmurakami": {
     name: "MisskeyHQ",
@@ -29,7 +30,8 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
     description: "Decentralized microblogging SNS born on Earth",
     link: "https://misskey.io",
     background: { light: "#f8faf0", dark: "#313a2e" },
-    orpc: { slot: 2, rel: "sponsored" },
+    slot: 2,
+    rel: "sponsored",
   },
 };
 
