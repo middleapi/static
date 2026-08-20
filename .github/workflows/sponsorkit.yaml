@@ -3,7 +3,7 @@ name: SponsorKit
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   push:
     branches: [main]
 
@@ -23,11 +23,13 @@ jobs:
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_GITHUB_LOGIN: dinwwwh
+          SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
+          SPONSORKIT_OPENCOLLECTIVE_SLUG: middleapi
 
       - uses: EndBug/add-and-commit@v9
         with:
           author_name: GitHub Actions
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: 'chore: update sponsors [ci skip]'
+          message: "chore: update sponsors [ci skip]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

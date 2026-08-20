@@ -1,167 +1,71 @@
-import * as fs from 'node:fs/promises';
-import { defineConfig, tierPresets } from 'sponsorkit';
-
-type SidebarPlacementSize = 'normal' | 'small' | 'none';
+import * as fs from "node:fs/promises";
+import { defineConfig, tierPresets } from "sponsorkit";
 
 interface JSONSponsor {
-  name: string | null;
+  provider: string;
   login: string;
+  name: string | null;
   avatar: string;
   amount: number;
   link: string;
   org: boolean;
   createdAt?: string;
-
   tierTitle: string;
   tierLevel: number;
-  sidebarSize: SidebarPlacementSize;
-  sidebarLogo: string;
+  [extra: string]: unknown;
 }
 
-/**
- * Per-sponsor customizations.
- *
- * If you meet requirements and want to show a custom logo in the sidebar,
- * add a `sidebarLogo` entry here with the URL of that logo.
- *
- * You can host logos in the /assets directory and reference them via:
- *   https://cdn.jsdelivr.net/gh/middleapi/static/assets/<your-logo>
- *
- * @example
- * ```ts
- *  const SPONSOR_CUSTOMIZATIONS = {
- *    'sponsor-login': {
- *       link: 'https://your-website.com', // Optional custom link for the sponsor
- *       sidebarLogo: 'https://cdn.jsdelivr.net/gh/middleapi/static/assets/YourLogo.png', // Custom logo for sidebar
- *     }
- * }
- * ```
- */
-const SPONSOR_CUSTOMIZATIONS: Record<string, Partial<JSONSponsor>> = {
-  screenshotone: {
-    sidebarLogo:
-      'https://cdn.jsdelivr.net/gh/middleapi/static/assets/ScreenshotOne_TextLogo.svg',
+const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
+  "github:screenshotone": {
+    description: "The screenshot API for developers",
+    link: "https://screenshotone.com",
+    background: { light: "#f7f5ff", dark: "#303147" },
+    orpc: { slot: 1, rel: "" },
   },
-  sanmurakami: {
-    sidebarLogo:
-      'https://cdn.jsdelivr.net/gh/middleapi/static/assets/MisskeyHQ_TextLogo.png',
-  },
-  zuplo: {
-    link: 'https://zuplo.link/orpc',
-  },
-  plancraft: {
-    sidebarLogo:
-      'https://cdn.jsdelivr.net/gh/middleapi/static/assets/plancraft.svg',
+  "github:sanmurakami": {
+    name: "MisskeyHQ",
+    avatar: "https://github.com/MisskeyIO.png",
+    description: "Decentralized microblogging SNS born on Earth",
+    link: "https://misskey.io",
+    background: { light: "#f8faf0", dark: "#313a2e" },
+    orpc: { slot: 2, rel: "sponsored" },
   },
 };
 
-const BRONZE_TIER_THRESHOLD = 100;
-const SILVER_TIER_THRESHOLD = 200;
-const GOLD_TIER_THRESHOLD = 500;
-const PLATINUM_TIER_THRESHOLD = 1000;
-
 const TIERS = [
+  { title: "☕ Backers", preset: tierPresets.small },
+  { title: "💛 Sponsors", monthlyDollars: 10, preset: tierPresets.base },
   {
-    title: 'Past Sponsors',
-    monthlyDollars: -1,
-    preset: {
-      avatar: { size: 20 },
-      boxWidth: 22,
-      boxHeight: 22,
-      container: { sidePadding: 35 },
-    },
-  },
-  {
-    title: 'Backers',
-    preset: tierPresets.small,
-  },
-  {
-    title: 'Sponsors',
-    monthlyDollars: 10,
-    preset: tierPresets.base,
-  },
-  {
-    title: 'Generous Sponsors',
+    title: "🏢 Company Sponsors",
     monthlyDollars: 50,
     preset: tierPresets.medium,
   },
   {
-    title: '🥉 Bronze Sponsor',
-    monthlyDollars: BRONZE_TIER_THRESHOLD,
+    title: "🚀 Premium Sponsors",
+    monthlyDollars: 200,
     preset: tierPresets.large,
   },
   {
-    title: '🥈 Silver Sponsor',
-    monthlyDollars: SILVER_TIER_THRESHOLD,
+    title: "🌟 Special Sponsors",
+    monthlyDollars: 1000,
     preset: tierPresets.xl,
-  },
-  {
-    title: '🥇 Gold Sponsor',
-    monthlyDollars: GOLD_TIER_THRESHOLD,
-    preset: {
-      avatar: { size: 90 * 1.4 },
-      boxWidth: 120 * 1.4,
-      boxHeight: 130 * 1.4,
-      container: { sidePadding: 20 * 1.4 },
-      name: { maxLength: 20 * 1.4 },
-    },
-  },
-  {
-    title: '🏆 Platinum Sponsor',
-    monthlyDollars: PLATINUM_TIER_THRESHOLD,
-    preset: {
-      avatar: { size: 90 * 1.8 },
-      boxWidth: 120 * 1.6,
-      boxHeight: 130 * 1.6,
-      container: { sidePadding: 20 * 1.6 },
-      name: { maxLength: 20 * 1.6 },
-    },
   },
 ];
 
 export default defineConfig({
   tiers: TIERS,
 
+  providers: ["github", "opencollective"],
+
+  sponsorsAutoMerge: true,
+
   async onSponsorsReady(sponsors) {
     const json: JSONSponsor[] = sponsors
-      .filter((sponsorEntry) => sponsorEntry.privacyLevel !== 'PRIVATE')
-      .map((sponsorEntry) => {
-        const customization = Object.entries(SPONSOR_CUSTOMIZATIONS).find(
-          ([customLogin]) =>
-            customLogin.toLocaleLowerCase() ===
-            sponsorEntry.sponsor.login.toLocaleLowerCase(),
-        )?.[1];
-
-        const expiredAt = sponsorEntry.expireAt
-          ? new Date(sponsorEntry.expireAt)
-          : sponsorEntry.isOneTime && sponsorEntry.createdAt
-            ? new Date(
-                new Date(sponsorEntry.createdAt).setMonth(
-                  new Date().getMonth() + 1,
-                ),
-              )
-            : undefined;
-
-        const isExpired = expiredAt ? expiredAt < new Date() : false;
-
-        const sidebarSize =
-          isExpired || !customization?.sidebarLogo
-            ? 'none'
-            : sponsorEntry.monthlyDollars >= SILVER_TIER_THRESHOLD
-              ? 'normal'
-              : sponsorEntry.monthlyDollars >= BRONZE_TIER_THRESHOLD
-                ? 'small'
-                : 'none';
-
-        const profileUrl = `https://github.com/${encodeURIComponent(sponsorEntry.sponsor.login)}`;
-        const canUseCustomOrWebsiteLink =
-          sponsorEntry.monthlyDollars >= BRONZE_TIER_THRESHOLD;
-        const link = canUseCustomOrWebsiteLink
-          ? customization?.link ||
-            sponsorEntry.sponsor.websiteUrl ||
-            sponsorEntry.sponsor.linkUrl ||
-            profileUrl
-          : profileUrl;
+      .filter((entry) => entry.privacyLevel !== "PRIVATE")
+      .map((entry) => {
+        const provider = entry.provider || "github";
+        const login = entry.sponsor.login;
+        const override = OVERRIDES[`${provider}:${login}`.toLowerCase()];
 
         const tierLevel =
           TIERS.length -
@@ -169,30 +73,34 @@ export default defineConfig({
           TIERS.slice()
             .reverse()
             .findIndex(
-              (tier) =>
-                sponsorEntry.monthlyDollars >= (tier.monthlyDollars || 0),
+              (tier) => entry.monthlyDollars >= (tier.monthlyDollars ?? 0),
             );
         const tier = TIERS[tierLevel];
 
         if (!tier) {
           throw new Error(
-            `Could not determine tier for sponsor ${sponsorEntry.sponsor.login} with monthly amount ${sponsorEntry.monthlyDollars}`,
+            `Could not determine tier for sponsor ${login} with monthly amount ${entry.monthlyDollars}`,
           );
         }
 
+        const profileUrl = provider.startsWith("opencollective")
+          ? `https://opencollective.com/${encodeURIComponent(login)}`
+          : `https://github.com/${encodeURIComponent(login)}`;
+        const link =
+          entry.sponsor.websiteUrl || entry.sponsor.linkUrl || profileUrl;
+
         return {
-          name: customization?.name || sponsorEntry.sponsor.name,
-          login: sponsorEntry.sponsor.login,
-          avatar: customization?.avatar || sponsorEntry.sponsor.avatarUrl,
-          amount: sponsorEntry.monthlyDollars,
-          createdAt: sponsorEntry.createdAt,
+          provider: provider,
+          login: login,
+          name: entry.sponsor.name,
+          avatar: entry.sponsor.avatarUrl,
+          amount: entry.monthlyDollars,
+          link: link,
+          org: entry.sponsor.type === "Organization",
+          createdAt: entry.createdAt,
           tierTitle: tier.title,
           tierLevel: tierLevel,
-          link: link,
-          org: sponsorEntry.sponsor.type === 'Organization',
-          sidebarSize: sidebarSize,
-          sidebarLogo:
-            customization?.sidebarLogo || sponsorEntry.sponsor.avatarUrl,
+          ...override,
         } satisfies JSONSponsor;
       })
       .sort((a, b) => {
@@ -206,10 +114,10 @@ export default defineConfig({
         return createdAtA - createdAtB;
       });
 
-    await fs.writeFile('sponsors.json', `${JSON.stringify(json, null, 2)}\n`);
+    await fs.writeFile("sponsors.json", `${JSON.stringify(json, null, 2)}\n`);
   },
 
-  outputDir: '.',
-  formats: ['svg', 'png'],
-  renderer: 'tiers',
+  outputDir: ".",
+  formats: ["svg", "png"],
+  renderer: "tiers",
 });
