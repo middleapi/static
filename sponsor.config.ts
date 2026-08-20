@@ -50,8 +50,6 @@ function withTracking(link: string): string {
   }
 }
 
-// `title` (plural) is used for tier headings in the rendered image and lists,
-// `titleSingular` for showing a single sponsor.
 const TIERS = [
   {
     title: "Past Sponsors",
