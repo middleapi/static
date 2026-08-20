@@ -33,6 +33,16 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
 };
 
 const TIERS = [
+  {
+    title: "Past Sponsors",
+    monthlyDollars: -1,
+    preset: {
+      avatar: { size: 20 },
+      boxWidth: 22,
+      boxHeight: 22,
+      container: { sidePadding: 35 },
+    },
+  },
   { title: "☕ Backers", preset: tierPresets.small },
   { title: "💛 Sponsors", monthlyDollars: 10, preset: tierPresets.base },
   {
@@ -58,6 +68,8 @@ export default defineConfig({
   providers: ["github", "opencollective"],
 
   sponsorsAutoMerge: true,
+
+  includePastSponsors: true,
 
   async onSponsorsReady(sponsors) {
     const json: JSONSponsor[] = sponsors
