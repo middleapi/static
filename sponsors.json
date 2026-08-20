@@ -10,14 +10,14 @@
     "tierTitle": "Special Sponsor",
     "tierTitlePlural": "Special Sponsors",
     "tierLevel": 5,
+    "rel": "",
     "description": "The screenshot API for developers",
     "link": "https://screenshotone.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor",
     "background": {
       "light": "#f7f5ff",
       "dark": "#303147"
     },
-    "slot": 1,
-    "rel": ""
+    "slot": 1
   },
   {
     "provider": "github",
@@ -30,14 +30,14 @@
     "tierTitle": "Premium Sponsor",
     "tierTitlePlural": "Premium Sponsors",
     "tierLevel": 4,
+    "rel": "sponsored",
     "description": "Decentralized microblogging SNS born on Earth",
     "link": "https://misskey.io/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor",
     "background": {
       "light": "#f8faf0",
       "dark": "#313a2e"
     },
-    "slot": 2,
-    "rel": "sponsored"
+    "slot": 2
   },
   {
     "provider": "github",
@@ -50,6 +50,7 @@
     "tierTitle": "Organization Sponsor",
     "tierTitlePlural": "Organization Sponsors",
     "tierLevel": 3,
+    "rel": "sponsored",
     "link": "https://lnmarkets.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -63,6 +64,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/hrmcdonald?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -76,6 +78,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://soymilk.party/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -89,6 +92,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/nicognaW?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -102,6 +106,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://supastarter.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -115,6 +120,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/divmgl?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -128,6 +134,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/herrfugbaum?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -141,6 +148,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://laststance.io/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -154,6 +162,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://cra.mr/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -167,6 +176,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://valerii15298.github.io/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -180,6 +190,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://letstri.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -193,6 +204,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://blacklight.sh/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -206,6 +218,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/christ12938?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -219,6 +232,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/Ryanjso?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -232,6 +246,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/itigoore01?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -245,6 +260,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/ellis-driscoll?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -258,6 +274,7 @@
     "tierTitle": "Sponsor",
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
+    "rel": "sponsored",
     "link": "https://github.com/hoangbn?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -271,6 +288,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://github.com/rhinodavid?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -284,6 +302,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://robbevaes.be/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -297,6 +316,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://github.com/aidansunbury?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -310,6 +330,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://github.com/soonoo?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -323,6 +344,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://kevinporten.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -336,6 +358,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://github.com/pumpkinlink?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -349,6 +372,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://github.com/christopher-kapic?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -362,6 +386,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "http://ballingt.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -375,6 +400,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://lee-sam.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -388,6 +414,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://github.com/Titoine?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -401,6 +428,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://rigtch.fm/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -414,6 +442,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://blog.cwang.io/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -427,6 +456,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://dubinets.io/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -440,6 +470,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://bika.ai/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -453,6 +484,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://guyariely.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -466,6 +498,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://piscis.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -479,6 +512,7 @@
     "tierTitle": "Backer",
     "tierTitlePlural": "Backers",
     "tierLevel": 1,
+    "rel": "sponsored",
     "link": "https://opensource.gubanov.eu/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -492,6 +526,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://maxie.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -505,6 +540,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/IPV4Addressv4?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -518,6 +554,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://zuplo.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -531,6 +568,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/motopods?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -544,6 +582,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/franciscohermida?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -557,6 +596,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://theoludwig.fr/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -570,6 +610,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://abhayramesh.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -583,6 +624,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/shr-ink?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -596,6 +638,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://0x4e32.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -609,6 +652,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/yzuyr?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -622,6 +666,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/happyboy2022?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -635,6 +680,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/YiCChi?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -648,6 +694,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://saksham.work/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -661,6 +708,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://hrynevych.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -674,6 +722,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/rokitgg?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -687,6 +736,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "http://khatib.gg/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -700,6 +750,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/YuSabo90002?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -713,6 +764,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://bapspatil.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -726,6 +778,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://tripwire.sh/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -739,6 +792,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://nelsonlai.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -752,6 +806,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/nguyenlc1993?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -765,6 +820,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://robsoriano.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -778,6 +834,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/andrewpeters9?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -791,6 +848,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://ryan.ceo/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -804,6 +862,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/SKostyukovich?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -817,6 +876,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/peter-adam-dy?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -830,6 +890,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://fabworks.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -843,6 +904,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/NovakAnton?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -856,6 +918,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://dun.gg/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -869,6 +932,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/yukimotochern?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -882,6 +946,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://illarionvk.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -895,6 +960,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://aneesiqbal.ai/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -908,6 +974,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://scrumplex.net/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -921,6 +988,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://natt.so/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -934,6 +1002,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://tkaczyk.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -947,6 +1016,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://plancraft.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
@@ -960,6 +1030,7 @@
     "tierTitle": "Past Sponsor",
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
+    "rel": "sponsored",
     "link": "https://github.com/Nic13Gamer?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   }
 ]
