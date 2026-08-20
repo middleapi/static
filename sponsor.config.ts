@@ -74,8 +74,8 @@ const TIERS = [
     preset: tierPresets.base,
   },
   {
-    title: "Company Sponsors",
-    titleSingular: "Company Sponsor",
+    title: "Organization Sponsors",
+    titleSingular: "Organization Sponsor",
     monthlyDollars: 50,
     preset: tierPresets.medium,
   },
