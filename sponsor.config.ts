@@ -13,6 +13,7 @@ interface JSONSponsor {
   tierTitle: string;
   tierTitlePlural: string;
   tierLevel: number;
+  rel: string;
   [extra: string]: unknown;
 }
 
@@ -31,7 +32,6 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
     link: "https://misskey.io",
     background: { light: "#f8faf0", dark: "#313a2e" },
     slot: 2,
-    rel: "sponsored",
   },
 };
 
@@ -153,6 +153,7 @@ export default defineConfig({
           tierTitle: tier.titleSingular,
           tierTitlePlural: tier.title,
           tierLevel: tierLevel,
+          rel: "sponsored",
           ...override,
           link: link,
         } satisfies JSONSponsor;
