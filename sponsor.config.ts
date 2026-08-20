@@ -11,6 +11,7 @@ interface JSONSponsor {
   org: boolean;
   createdAt?: string;
   tierTitle: string;
+  tierTitlePlural: string;
   tierLevel: number;
   [extra: string]: unknown;
 }
@@ -49,9 +50,12 @@ function withTracking(link: string): string {
   }
 }
 
+// `title` (plural) is used for tier headings in the rendered image and lists,
+// `titleSingular` for showing a single sponsor.
 const TIERS = [
   {
     title: "Past Sponsors",
+    titleSingular: "Past Sponsor",
     monthlyDollars: -1,
     preset: {
       avatar: { size: 20 },
@@ -60,20 +64,32 @@ const TIERS = [
       container: { sidePadding: 35 },
     },
   },
-  { title: "Backers", preset: tierPresets.small },
-  { title: "Sponsors", monthlyDollars: 10, preset: tierPresets.base },
+  {
+    title: "Backers",
+    titleSingular: "Backer",
+    preset: tierPresets.small,
+  },
+  {
+    title: "Sponsors",
+    titleSingular: "Sponsor",
+    monthlyDollars: 10,
+    preset: tierPresets.base,
+  },
   {
     title: "Company Sponsors",
+    titleSingular: "Company Sponsor",
     monthlyDollars: 50,
     preset: tierPresets.medium,
   },
   {
     title: "Premium Sponsors",
+    titleSingular: "Premium Sponsor",
     monthlyDollars: 200,
     preset: tierPresets.large,
   },
   {
     title: "Special Sponsors",
+    titleSingular: "Special Sponsor",
     monthlyDollars: 750,
     preset: tierPresets.xl,
   },
@@ -134,7 +150,8 @@ export default defineConfig({
           amount: entry.monthlyDollars,
           org: entry.sponsor.type === "Organization",
           createdAt: entry.createdAt,
-          tierTitle: tier.title,
+          tierTitle: tier.titleSingular,
+          tierTitlePlural: tier.title,
           tierLevel: tierLevel,
           ...override,
           link: link,
