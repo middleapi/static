@@ -8,7 +8,7 @@ interface JSONSponsor {
   avatar: string;
   amount: number;
   link: string;
-  org: boolean;
+  type: "User" | "Organization";
   createdAt?: string;
   tierTitle: string;
   tierTitlePlural: string;
@@ -146,7 +146,7 @@ export default defineConfig({
           name: entry.sponsor.name,
           avatar: entry.sponsor.avatarUrl,
           amount: entry.monthlyDollars,
-          org: entry.sponsor.type === "Organization",
+          type: entry.sponsor.type,
           createdAt: entry.createdAt,
           tierTitle: tier.titleSingular,
           tierTitlePlural: tier.title,
