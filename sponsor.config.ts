@@ -32,6 +32,23 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
   },
 };
 
+function withTracking(link: string): string {
+  try {
+    const url = new URL(link);
+    const hasTracking = [...url.searchParams.keys()].some(
+      (key) => key === "ref" || key.startsWith("utm_"),
+    );
+    if (!hasTracking) {
+      url.searchParams.set("ref", "middleapi");
+      url.searchParams.set("utm_source", "middleapi");
+      url.searchParams.set("utm_medium", "sponsor");
+    }
+    return url.toString();
+  } catch {
+    return link;
+  }
+}
+
 const TIERS = [
   {
     title: "Past Sponsors",
@@ -98,8 +115,16 @@ export default defineConfig({
         const profileUrl = provider.startsWith("opencollective")
           ? `https://opencollective.com/${encodeURIComponent(login)}`
           : `https://github.com/${encodeURIComponent(login)}`;
-        const link =
-          entry.sponsor.websiteUrl || entry.sponsor.linkUrl || profileUrl;
+        const link = withTracking(
+          override?.link ||
+            entry.sponsor.websiteUrl ||
+            entry.sponsor.linkUrl ||
+            profileUrl,
+        );
+
+        // Make the rendered image use the same link
+        entry.sponsor.websiteUrl = link;
+        entry.sponsor.linkUrl = link;
 
         return {
           provider: provider,
@@ -107,12 +132,12 @@ export default defineConfig({
           name: entry.sponsor.name,
           avatar: entry.sponsor.avatarUrl,
           amount: entry.monthlyDollars,
-          link: link,
           org: entry.sponsor.type === "Organization",
           createdAt: entry.createdAt,
           tierTitle: tier.title,
           tierLevel: tierLevel,
           ...override,
+          link: link,
         } satisfies JSONSponsor;
       })
       .sort((a, b) => {
