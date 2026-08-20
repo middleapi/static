@@ -16,10 +16,8 @@
       "light": "#f7f5ff",
       "dark": "#303147"
     },
-    "orpc": {
-      "slot": 1,
-      "rel": ""
-    }
+    "slot": 1,
+    "rel": ""
   },
   {
     "provider": "github",
@@ -38,10 +36,8 @@
       "light": "#f8faf0",
       "dark": "#313a2e"
     },
-    "orpc": {
-      "slot": 2,
-      "rel": "sponsored"
-    }
+    "slot": 2,
+    "rel": "sponsored"
   },
   {
     "provider": "github",
