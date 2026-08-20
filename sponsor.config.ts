@@ -130,6 +130,6 @@ export default defineConfig({
   },
 
   outputDir: ".",
-  formats: ["svg", "png"],
+  formats: ["svg"],
   renderer: "tiers",
 });
