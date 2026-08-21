@@ -31,7 +31,7 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
     description: "Decentralized microblogging SNS born on Earth",
     link: "https://misskey.io",
     background: { light: "#f8faf0", dark: "#313a2e" },
-    slot: 2,
+    slot: 4,
   },
 };
 
