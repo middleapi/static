@@ -643,7 +643,7 @@
   },
   {
     "provider": "github",
-    "login": "yzuyr",
+    "login": "ryuzdev",
     "name": "Ryuz",
     "avatar": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4",
     "amount": -1,
@@ -653,7 +653,7 @@
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
     "rel": "sponsored",
-    "link": "https://github.com/yzuyr?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+    "link": "https://github.com/ryuzdev?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
     "provider": "github",
