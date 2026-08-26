@@ -278,6 +278,20 @@
     "link": "https://github.com/hoangbn?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
+    "provider": "opencollective",
+    "login": "guest-ac41de3b",
+    "name": "Orestis Ioannou",
+    "avatar": "https://images.opencollective.com/guest-ac41de3b/avatar/460.png",
+    "amount": 10,
+    "type": "User",
+    "createdAt": "2026-08-25T08:43:42.803Z",
+    "tierTitle": "Sponsor",
+    "tierTitlePlural": "Sponsors",
+    "tierLevel": 2,
+    "rel": "sponsored",
+    "link": "https://opencollective.com/guest-ac41de3b?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
     "provider": "github",
     "login": "rhinodavid",
     "name": "David Walsh",
