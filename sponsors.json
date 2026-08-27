@@ -545,9 +545,9 @@
   },
   {
     "provider": "github",
-    "login": "IPV4Addressv4",
-    "name": "IPV4Address",
-    "avatar": "https://avatars.githubusercontent.com/u/100147665?u=176f2ad09630c8ce556fec161f9fe622ed08f60f&v=4",
+    "login": "IPv4Addr",
+    "name": "IPv4Addr",
+    "avatar": "https://avatars.githubusercontent.com/u/100147665?u=59996b72f69bb53063cb7e9ff8b8f898616cd94d&v=4",
     "amount": -1,
     "type": "User",
     "createdAt": "2025-03-12T10:09:06Z",
@@ -555,7 +555,7 @@
     "tierTitlePlural": "Past Sponsors",
     "tierLevel": 0,
     "rel": "sponsored",
-    "link": "https://github.com/IPV4Addressv4?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+    "link": "https://github.com/IPv4Addr?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
     "provider": "github",
