@@ -25,6 +25,12 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
     slot: 1,
     rel: "",
   },
+  "github:yuzu-health": {
+    description: "We're hiring NYC based engineers",
+    link: "https://yuzu.health/careers",
+    background: { light: "#fdf5f3", dark: "#3d302e" },
+    slot: 2,
+  },
   "github:sanmurakami": {
     name: "MisskeyHQ",
     avatar: "https://github.com/MisskeyIO.png",
