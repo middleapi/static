@@ -21,6 +21,26 @@
   },
   {
     "provider": "github",
+    "login": "yuzu-health",
+    "name": "Yuzu",
+    "avatar": "https://avatars.githubusercontent.com/u/102488956?v=4",
+    "amount": 500,
+    "type": "Organization",
+    "createdAt": "2026-08-31T14:58:49Z",
+    "tierTitle": "Premium Sponsor",
+    "tierTitlePlural": "Premium Sponsors",
+    "tierLevel": 4,
+    "rel": "sponsored",
+    "description": "We're hiring NYC based engineers",
+    "link": "https://yuzu.health/careers?ref=middleapi&utm_source=middleapi&utm_medium=sponsor",
+    "background": {
+      "light": "#fdf5f3",
+      "dark": "#3d302e"
+    },
+    "slot": 2
+  },
+  {
+    "provider": "github",
     "login": "SanMurakami",
     "name": "MisskeyHQ",
     "avatar": "https://github.com/MisskeyIO.png",
@@ -307,6 +327,20 @@
   },
   {
     "provider": "github",
+    "login": "IPv4Addr",
+    "name": "IPv4Addr",
+    "avatar": "https://avatars.githubusercontent.com/u/100147665?u=59996b72f69bb53063cb7e9ff8b8f898616cd94d&v=4",
+    "amount": 5,
+    "type": "User",
+    "createdAt": "2025-03-12T10:09:06Z",
+    "tierTitle": "Backer",
+    "tierTitlePlural": "Backers",
+    "tierLevel": 1,
+    "rel": "sponsored",
+    "link": "https://github.com/IPv4Addr?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "Robbe95",
     "name": "Robbe Vaes",
     "avatar": "https://avatars.githubusercontent.com/u/44748019?u=e0232402c045ad4eac7cbd217f1f47e083103b89&v=4",
@@ -503,6 +537,20 @@
   },
   {
     "provider": "github",
+    "login": "PaulSenon",
+    "name": "PaulSenon",
+    "avatar": "https://avatars.githubusercontent.com/u/19531087?u=6385741eb91d200b8c513ec6045482e301767ca6&v=4",
+    "amount": 5,
+    "type": "User",
+    "createdAt": "2026-08-30T03:12:32Z",
+    "tierTitle": "Backer",
+    "tierTitlePlural": "Backers",
+    "tierLevel": 1,
+    "rel": "sponsored",
+    "link": "https://paulsenon.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "piscis",
     "name": "Alex",
     "avatar": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4",
@@ -542,20 +590,6 @@
     "tierLevel": 0,
     "rel": "sponsored",
     "link": "https://maxie.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
-  },
-  {
-    "provider": "github",
-    "login": "IPv4Addr",
-    "name": "IPv4Addr",
-    "avatar": "https://avatars.githubusercontent.com/u/100147665?u=59996b72f69bb53063cb7e9ff8b8f898616cd94d&v=4",
-    "amount": -1,
-    "type": "User",
-    "createdAt": "2025-03-12T10:09:06Z",
-    "tierTitle": "Past Sponsor",
-    "tierTitlePlural": "Past Sponsors",
-    "tierLevel": 0,
-    "rel": "sponsored",
-    "link": "https://github.com/IPv4Addr?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
     "provider": "github",
