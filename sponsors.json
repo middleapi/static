@@ -313,6 +313,20 @@
   },
   {
     "provider": "github",
+    "login": "shtefcs",
+    "name": "Stefan Smiljkovic",
+    "avatar": "https://avatars.githubusercontent.com/u/1984909?u=b7bf5bc40ed49df3c22f69d2da7b8d78709c49ed&v=4",
+    "amount": 10,
+    "type": "User",
+    "createdAt": "2026-09-08T14:51:48Z",
+    "tierTitle": "Sponsor",
+    "tierTitlePlural": "Sponsors",
+    "tierLevel": 2,
+    "rel": "sponsored",
+    "link": "https://automatio.ai/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "rhinodavid",
     "name": "David Walsh",
     "avatar": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4",
