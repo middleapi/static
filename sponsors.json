@@ -21,6 +21,20 @@
   },
   {
     "provider": "github",
+    "login": "rauchg",
+    "name": "Guillermo Rauch",
+    "avatar": "https://avatars.githubusercontent.com/u/13041?u=1ee8d111657cdd02ff6d253df00978d17ee6d722&v=4",
+    "amount": 1000,
+    "type": "User",
+    "createdAt": "2026-09-09T19:11:39Z",
+    "tierTitle": "Special Sponsor",
+    "tierTitlePlural": "Special Sponsors",
+    "tierLevel": 5,
+    "rel": "sponsored",
+    "link": "http://twitter.com/rauchg?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "yuzu-health",
     "name": "Yuzu",
     "avatar": "https://avatars.githubusercontent.com/u/102488956?v=4",
