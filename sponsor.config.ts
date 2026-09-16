@@ -58,6 +58,14 @@ function withTracking(link: string): string {
   }
 }
 
+function escapeXmlAttribute(value: string): string {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
 const TIERS = [
   {
     title: "Past Sponsors",
@@ -145,8 +153,8 @@ export default defineConfig({
         );
 
         // Make the rendered image use the same link
-        entry.sponsor.websiteUrl = link;
-        entry.sponsor.linkUrl = link;
+        entry.sponsor.websiteUrl = escapeXmlAttribute(link);
+        entry.sponsor.linkUrl = escapeXmlAttribute(link);
 
         return {
           provider: provider,
