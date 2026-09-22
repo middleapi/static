@@ -75,6 +75,20 @@
   },
   {
     "provider": "github",
+    "login": "nexa-ca",
+    "name": "Nexa",
+    "avatar": "https://avatars.githubusercontent.com/u/199146462?v=4",
+    "amount": 200,
+    "type": "Organization",
+    "createdAt": "2026-09-21T17:06:10Z",
+    "tierTitle": "Premium Sponsor",
+    "tierTitlePlural": "Premium Sponsors",
+    "tierLevel": 4,
+    "rel": "sponsored",
+    "link": "https://github.com/nexa-ca?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "ln-markets",
     "name": "LN Markets",
     "avatar": "https://avatars.githubusercontent.com/u/70597625?v=4",
