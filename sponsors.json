@@ -579,6 +579,20 @@
   },
   {
     "provider": "github",
+    "login": "nakasyou",
+    "name": "Shotaro Nakamura",
+    "avatar": "https://avatars.githubusercontent.com/u/79000684?u=f644df3f29f0e8677a90967115774564f1d9d6ab&v=4",
+    "amount": 5,
+    "type": "User",
+    "createdAt": "2026-09-28T15:56:34Z",
+    "tierTitle": "Backer",
+    "tierTitlePlural": "Backers",
+    "tierLevel": 1,
+    "rel": "sponsored",
+    "link": "https://nakasyou.how/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "piscis",
     "name": "Alex",
     "avatar": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4",
@@ -1122,5 +1136,19 @@
     "tierLevel": 0,
     "rel": "sponsored",
     "link": "https://github.com/Nic13Gamer?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "opencollective",
+    "login": "laduni",
+    "name": "Laduni",
+    "avatar": "https://images.opencollective.com/laduni/avatar/460.png",
+    "amount": -1,
+    "type": "User",
+    "createdAt": "2026-09-28T14:22:45.552Z",
+    "tierTitle": "Past Sponsor",
+    "tierTitlePlural": "Past Sponsors",
+    "tierLevel": 0,
+    "rel": "sponsored",
+    "link": "https://opencollective.com/laduni?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   }
 ]
