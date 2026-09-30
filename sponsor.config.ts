@@ -23,7 +23,6 @@ const OVERRIDES: Record<string, Partial<JSONSponsor>> = {
     link: "https://screenshotone.com",
     background: { light: "#f7f5ff", dark: "#303147" },
     slot: 1,
-    rel: "",
   },
   "github:yuzu-health": {
     description: "We're hiring NYC based engineers",
