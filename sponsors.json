@@ -10,7 +10,7 @@
     "tierTitle": "Special Sponsor",
     "tierTitlePlural": "Special Sponsors",
     "tierLevel": 5,
-    "rel": "",
+    "rel": "sponsored",
     "description": "The screenshot API for developers",
     "link": "https://screenshotone.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor",
     "background": {
