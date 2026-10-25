@@ -257,6 +257,20 @@
   },
   {
     "provider": "github",
+    "login": "Nic13Gamer",
+    "name": "Nicholas",
+    "avatar": "https://avatars.githubusercontent.com/u/54724556?u=56a7ab430ce7a80d648ab6eba051d454a818ed0b&v=4",
+    "amount": 10,
+    "type": "User",
+    "createdAt": "2026-06-28T20:17:54Z",
+    "tierTitle": "Sponsor",
+    "tierTitlePlural": "Sponsors",
+    "tierLevel": 2,
+    "rel": "sponsored",
+    "link": "https://github.com/Nic13Gamer?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "ellis-driscoll",
     "name": "Ellis Driscoll",
     "avatar": "https://avatars.githubusercontent.com/u/70685966?u=c5f95bc33b5991d9744abe00052542e4a2ed3cb9&v=4",
@@ -1094,20 +1108,6 @@
     "tierLevel": 0,
     "rel": "sponsored",
     "link": "https://plancraft.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
-  },
-  {
-    "provider": "github",
-    "login": "Nic13Gamer",
-    "name": "Nicholas",
-    "avatar": "https://avatars.githubusercontent.com/u/54724556?u=56a7ab430ce7a80d648ab6eba051d454a818ed0b&v=4",
-    "amount": -1,
-    "type": "User",
-    "createdAt": "2026-06-28T20:17:54Z",
-    "tierTitle": "Past Sponsor",
-    "tierTitlePlural": "Past Sponsors",
-    "tierLevel": 0,
-    "rel": "sponsored",
-    "link": "https://github.com/Nic13Gamer?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
     "provider": "github",
