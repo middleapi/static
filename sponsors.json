@@ -565,6 +565,20 @@
   },
   {
     "provider": "github",
+    "login": "usagerail",
+    "name": "UsageRail",
+    "avatar": "https://avatars.githubusercontent.com/u/347653714?v=4",
+    "amount": 5,
+    "type": "Organization",
+    "createdAt": "2026-11-12T15:20:24Z",
+    "tierTitle": "Backer",
+    "tierTitlePlural": "Backers",
+    "tierLevel": 1,
+    "rel": "sponsored",
+    "link": "https://usagerail.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "piscis",
     "name": "Alex",
     "avatar": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4",
