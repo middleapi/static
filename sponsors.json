@@ -75,6 +75,20 @@
   },
   {
     "provider": "github",
+    "login": "GeorgeIpsum",
+    "name": "Ibrahim Saberi",
+    "avatar": "https://avatars.githubusercontent.com/u/2670350?u=31c4db8dcf5d605c612676475543a228884fc74b&v=4",
+    "amount": 50,
+    "type": "User",
+    "createdAt": "2026-11-24T21:36:36Z",
+    "tierTitle": "Organization Sponsor",
+    "tierTitlePlural": "Organization Sponsors",
+    "tierLevel": 3,
+    "rel": "sponsored",
+    "link": "https://ibrahimsaberi.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "hrmcdonald",
     "name": "Reece McDonald",
     "avatar": "https://avatars.githubusercontent.com/u/39349270?v=4",
@@ -267,7 +281,7 @@
     "tierTitlePlural": "Sponsors",
     "tierLevel": 2,
     "rel": "sponsored",
-    "link": "https://github.com/ellis-driscoll?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+    "link": "https://ellisdriscoll.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
     "provider": "github",
