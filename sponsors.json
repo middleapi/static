@@ -61,6 +61,20 @@
   },
   {
     "provider": "github",
+    "login": "plancraft",
+    "name": "plancraft",
+    "avatar": "https://avatars.githubusercontent.com/u/46482287?v=4",
+    "amount": 150,
+    "type": "Organization",
+    "createdAt": "2026-05-18T11:16:16Z",
+    "tierTitle": "Organization Sponsor",
+    "tierTitlePlural": "Organization Sponsors",
+    "tierLevel": 3,
+    "rel": "sponsored",
+    "link": "https://plancraft.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
+  },
+  {
+    "provider": "github",
     "login": "ln-markets",
     "name": "LN Markets",
     "avatar": "https://avatars.githubusercontent.com/u/70597625?v=4",
@@ -1094,20 +1108,6 @@
     "tierLevel": 0,
     "rel": "sponsored",
     "link": "https://tkaczyk.dev/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
-  },
-  {
-    "provider": "github",
-    "login": "plancraft",
-    "name": "plancraft",
-    "avatar": "https://avatars.githubusercontent.com/u/46482287?v=4",
-    "amount": -1,
-    "type": "Organization",
-    "createdAt": "2026-05-18T11:16:16Z",
-    "tierTitle": "Past Sponsor",
-    "tierTitlePlural": "Past Sponsors",
-    "tierLevel": 0,
-    "rel": "sponsored",
-    "link": "https://plancraft.com/?ref=middleapi&utm_source=middleapi&utm_medium=sponsor"
   },
   {
     "provider": "github",
